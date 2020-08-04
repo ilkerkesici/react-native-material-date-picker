@@ -1,5 +1,9 @@
-# React Native Material Date Picker Component
+# React Native Material Date Picker
 
+## :star2: Features
+- Easy usage
+- Material design
+- Easy localizable
 
 ## :star: ScreenShot
 
@@ -7,7 +11,7 @@
 
 ## :arrow_down: Installation
 
-#### Install from npm
+#### Install by npm or yarn
 
 ```sh
 npm install --save react-native-material-date-picker
@@ -19,7 +23,7 @@ yarn add react-native-material-date-picker
 
 
 
-#### The usage (Step 2)
+#### Usage
 
 ```sh
 import { ModalDatePicker } from "react-native-material-date-picker";
