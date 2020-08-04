@@ -1,0 +1,17 @@
+{
+  "name": "react-native-material-date-picker",
+  "version": "1.0.0",
+  "description": "Material date picker for react-native",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "date",
+    "date-picker",
+    "react-native",
+    "material"
+  ],
+  "author": "İlker Kesici <ilkerrkesici@gmail.com> (https://github.com/ilkerkesici)",
+  "license": "ISC"
+}

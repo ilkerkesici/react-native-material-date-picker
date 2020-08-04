@@ -1,0 +1,26 @@
+{
+    "MONTHS": {
+        "JANUARY": "OCAK",
+        "FEBRUARY": "ŞUBAT",
+        "MARCH": "MART",
+        "APRIL": "NISAN",
+        "MAY": "MAYIS",
+        "JUNE": "HAZİRAN",
+        "JULY": "TEMMUZ",
+        "AUGUST": "AĞUSTOS",
+        "SEPTEMBER": "EYLÜL",
+        "OCTOBER": "EKİM",
+        "NOVEMBER": "KASIM",
+        "DECEMBER": "ARALIK"
+    },
+    "DAYS": {
+        "MONDAY": "Pazartesi",
+        "TUESDAY": "Salı",
+        "WEDNESDAY": "Çarşamba",
+        "THURSDAY": "Perşmebe",
+        "FRIDAY": "Cuma",
+        "SATURDAY": "Cumartesi",
+        "SUNDAY": "Pazar"
+
+    }
+}
