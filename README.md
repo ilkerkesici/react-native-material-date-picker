@@ -33,6 +33,7 @@ const App = () => {
             onSelect={(date) => console.log(date) }
             isHideOnSelect={true}
             initialDate={new Date()}
+            language={require('./locales/en.json')}. # Your localization file
         />             
       </View>
   );
@@ -53,6 +54,7 @@ const App = () => {
 | onHidden | func | - | Run after hidden the picker (only ModalDatePicker) |
 | isHideOnSelect | boolean | false | Determines whether the modal will be closed (only ModalDatePicker) |
 | initialDate | Date | Now | Initial date for picker (only ModalDatePicker) |
+| language | JSON File | - | Your custom language file for months and days (<a href="https://github.com/ilkerkesici/react-native-material-date-picker/blob/master/locales/tr.json">Example</a>) |
 
 
 
