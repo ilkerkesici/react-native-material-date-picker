@@ -1,3 +1,13 @@
+<p>
+  <a href="https://classic.yarnpkg.com/en/package/react-native-material-date-picker">
+    <img alt="Documentation" src="https://img.shields.io/static/v1?label=pack&message=yarn&color=blue" target="_blank" />
+  </a>
+  <a href="https://www.npmjs.com/package/react-native-material-date-picker">
+    <img alt="Documentation" src="https://img.shields.io/static/v1?label=pack&message=npm&color=red" target="_blank" />
+  </a>
+</p>
+
+
 # React Native Material Date Picker
 
 ## :star2: Features
