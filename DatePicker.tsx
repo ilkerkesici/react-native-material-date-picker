@@ -12,7 +12,8 @@ interface IDatePicker{
     onForward?: (date: Date) => void,
     onBack?: (date: Date) => void,
     style?: any,
-    initialDate?: Date
+    initialDate?: Date,
+    language?: any
 }
 
 class DatePicker extends React.Component<IDatePicker>{
@@ -33,7 +34,11 @@ class DatePicker extends React.Component<IDatePicker>{
     }
 
     determineLocales(){
-        const { locale } = this.props;
+        const { locale, language } = this.props;
+        if(language){
+            this.setState({days: language.DAYS, months: language.MONTHS});
+            return;
+        }
         let localeStrings;
         switch(locale){
             case 'tr':

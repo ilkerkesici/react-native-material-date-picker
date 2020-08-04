@@ -13,7 +13,8 @@ interface IModalDatePicker{
     button?: React.ReactNode,
     style?: any,
     isHideOnSelect?: boolean,
-    initialDate?: Date
+    initialDate?: Date,
+    language?: any
 }
  
 class ModalDatePicker extends React.Component<IModalDatePicker>{
@@ -39,7 +40,7 @@ class ModalDatePicker extends React.Component<IModalDatePicker>{
     }
 
     render(){
-        const { locale, color, button,  onForward, onBack, style, initialDate } = this.props;
+        const { locale, color, button,  onForward, onBack, style, initialDate, language } = this.props;
         const Button = button ?
             <TouchableOpacity onPress={this.showModal}>
                 {button}
@@ -59,6 +60,7 @@ class ModalDatePicker extends React.Component<IModalDatePicker>{
                     onBack={onBack}
                     style={style}
                     initialDate={initialDate}
+                    language={language}
                 />
             </Modal>
         );
